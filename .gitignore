@@ -19,5 +19,5 @@ pom.xml.*
 
 #Command line
 local.properties
-build.xml
+#build.xml
 proguard-project.txt
