@@ -271,7 +271,7 @@ public class TabPageIndicator extends HorizontalScrollView implements PageIndica
 
             // Re-measure if we went beyond our maximum size.
             if (mMaxTabWidth > 0 && getMeasuredWidth() > mMaxTabWidth) {
-                super.onMeasure(MeasureSpec.makeMeasureSpec(mMaxTabWidth, MeasureSpec.EXACTLY),
+                super.onMeasure(MeasureSpec.makeMeasureSpec(mMaxTabWidth, MeasureSpec.UNSPECIFIED),
                         heightMeasureSpec);
             }
         }
